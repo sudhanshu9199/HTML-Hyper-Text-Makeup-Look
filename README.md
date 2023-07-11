@@ -1,2 +1,2 @@
-# HTML-Hyper-Text-Makeup-Look
+# HTML-Hyper-Text-Markup-Look
 College life HTML practice
