@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhanshu College</title>
+
+</head>
+<body>
+    <!-- Heading and paragraph -->
+    <h1>This is a Villian</h1>
+    <h2>This is a Villian</h2>
+    <h3>This is a Villian</h3>
+    <h4>This is a Villian</h4>
+    <h5>This is a Villian</h5>
+    <h6>This is a Villian</h6>
+    <!-- Paragraph tag -->
+    <p>This is a Sudhanshu dear</p>
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, exercitationem! Eum, architecto deleniti quae earum a sunt odio aut consectetur recusandae magnam impedit repellat quibusdam neque quis! Quibusdam, ad sint?</p>
+    <!-- <p>lorem30</p> -->
+    <!-- Anchor tag (<a></a>) OR  Example of absolute link.-->
+    <a href="https://youtu.be/FOHN8hOJDFU">  Click here to go to SVlog video</a>
+    <!-- <br> is a break of lines -->
+    <br>
+    <!-- Example of relative link -->
+    <a href="/sudhanshu.html">Go to about Sudhanshu</a>
+<hr>
+<!-- <hr> is use to create horizontal line. -->
+    <!-- The img tag -->
+    <img src="https://www.digitaldeployment.com/sites/main/files/main-images/camera_lense_0.jpeg" alt="Lens image" width="350px">
+    <hr>
+
+    <!-- bold italic and underline tags -->
+    <b>This is bold</b>
+    <br>
+    <i>This italic</i>
+    <u>This is underline</u>
+    <big>This is big</big>
+    <small>This is small</small>
+
+    <!-- Subscript and Superscript -->
+    <p>CO<sub>2</sub></p>
+    <P>ax<sub>2</sub> + bx + c</P>
+    <p>5<sup>2</sup>= 25</p>
+
+    def selection_sort(arr):
+    n = len(arr)
+    
+    for i in range(n):
+        # Find the minimum element in the unsorted portion
+        min_index = i
+        for j in range(i+1, n):
+            if arr[j] < arr[min_index]:
+                min_index = j
+                
+        # Swap the found minimum element with the first element of the unsorted portion
+        arr[i], arr[min_index] = arr[min_index], arr[i]
+    
+    return arr
+
+    <pre>
+        <!-- <pre> is used for rendering as it is code or any thing -->
+    
+            def selection_sort(arr):
+    n = len(arr)
+    
+    for i in range(n):
+        # Find the minimum element in the unsorted portion
+        min_index = i
+        for j in range(i+1, n):
+            if arr[j] < arr[min_index]:
+                min_index = j
+                
+        # Swap the found minimum element with the first element of the unsorted portion
+        arr[i], arr[min_index] = arr[min_index], arr[i]
+    
+    return arr
+    </pre>
+
+    <!-- Use the right tags
+    1) <header> (2) <main> (3) <footer> -->
+    <header> Skills</header>
+    <header>
+        <h1>Education</h1>
+        <h1>Projects</h1>
+    </header>
+    <!-- For lies in same line -->
+    <header>
+        <pre>
+            <p>Education           Project</p>
+        </pre>
+    </header>
+
+    <!-- main content -->
+    <main>
+        <!-- Div Tag(<dev>):- Div is a container used for other HTML elements. Also Black element(takes full width) -->
+            <dev>
+                <p>Hello world!</p>
+                <p>Namasta India</p>
+            </dev>
+
+    </main>
+    <footer>
+        <h4> Contact me</h4>
+    </footer>
+
+    <!-- Inside main Tag: 
+    1) Section Tag(<section>): it is for section on your page
+    2) Article Tag(<article>): it is for an article on the page
+    3) Aside Tag(<aside>): it is not aside main content(ads).-->
+    
+        <SECTION>Eductions: CBSE(12th) | CU(BCA)</SECTION>
+        <article>My story: </article>
+        <aside>this is an ad</aside>
+        <!-- "_main" is use for open on new tab -->
+        <a href="http://google.com" target="_main"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png" width="256px" alt="Google"/></a>
+        <br>
+
+        <!-- Span Tag: span is also a container used for other HTML elements -->
+        <span>
+            hello India
+            You only
+        </span>
+
+        <!-- List in HTML -->
+        <!-- Unordered list:-  <ul> <li></li> </ul>   -->
+        <ul>
+            <li>Apple</li>
+            <ul>
+                <li>color: red</li>
+                <li>season: winter</li>
+            </ul>
+            <li>Banana</li>
+            <ul>
+                <li>color: yellow</li>
+                <li>season: summer</li>
+            </ul>
+            <li>Orange</li>
+            <li>Graphs</li>
+        </ul>
+        <!-- Ordered list:- <ol> <li></li> </ol>  -->
+        <ol>
+            <li>Apple</li>
+            <ol>
+                <li>color: red</li>
+                <li>season: winter</li>
+            </ol>
+            <li>Banana</li>
+            <ol>
+                <li>color: yellow</li>
+                <li>season: summer</li>
+            </ol>
+            <li>Orange</li>
+            <li>Graphs</li>
+        </ol>
+        
+        <!-- Table(<table><table/>) in HTML:
+            1) <tr>: used to display table row
+                2) <td> used to display table data
+                    3) <th> used to display table header. -->
+                 <br>       
+        <table>
+            <!-- thead & tbody in Table
+            1) <thead> to wrap table head
+            2) <tbody> to wrap table body -->
+            <thead>
+            <!-- For Caption: <caption> -->
+            <caption>
+                Student Data
+            </caption>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Roll No.
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    Sudhanshu
+                </td>
+                <td>
+                    122254
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Annwesha
+                </td>
+                <td>
+                    589745
+                </td>
+            </tr>
+        </tbody>
+        </table>    
+        <br>
+        <table>
+            <thead>
+                <caption>
+                    Product Data
+                </caption>
+                <tr>
+                    <!-- Colspan is used for merge header -->
+                    <th colspan="2">
+                        INFORMATION
+                        
+                    </th>
+                </tr>
+            </thead>
+            <body>
+                <tr>
+                    <td>
+                        Adani 
+                    </td>
+                    <td>
+                        89%
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Nykaa
+                    </td>
+                    <td>
+                        69%
+                    </td>
+                </tr>
+            </body>
+        </table>
+
+        <!-- Form in HTML
+        Forms are used to collect data from the user
+        Eg: sign up/login/help requests/contact me
+        <form> form content </form> -->
+
+        <!-- Action in Form: Action attribute is used to define what action needs...
+        <form action="/action.php"> -->
+            <form action="action.php">
+            <!-- Form Element: Input
+            <input type="text" placeholder="Enter Name"> -->
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <!-- Label: <label for="id1"> label is used when you click on text then also get ticked.
+                <input type="radio" value="classX" name="class" id="id1">
+            </label>
+        
+            <label for="id2">
+                <input type="radio" value="classX" name="class" id="id2"
+            </label>  -->
+            <label for="1078">
+            <input type="radio" value="BCA" name="class" id="1078">BCA
+            </label>
+            <label for="1077">
+            <input type="radio" value="B.Tech" name="class" id="1077">B.Tech
+            </label>
+
+            <br>
+            <input type="radio" value="JAVA" name="class" id="12">JAVA
+            <input type="radio" value="PYTHON" name="class" id="11">PYTHON
+
+            <!-- Class & id -->
+            <!-- <div id="id1" class="group1"> </div>
+                <div id="id2"> class="group1"> </div> -->
+
+
+                <!-- CheckBox: for multiple option choice
+                <label for="id1">
+                    <input type="checkbox" value="classX" name="class" id="id1">
+                </label>
+            
+                <label for="id2">
+                    <input type="checkbox" value="class X" name="class" id="id2">
+                </label> -->
+            
+
+                <br>
+                <h5>Select favorite subject</h5>
+            <label for="Math">
+                <input type="checkbox" value="Math" name="subject" id="101">Math
+            </label>
+            <label for="DSA">
+                <input type="checkbox" value="DSA" name="subject" id="102">DSA
+            </label>
+            <br>
+            <label for="Computer Architecture" >
+                <input type="checkbox" value="Computer Architecture" name="subject" id="103">Computer Architecture
+            </label>
+            <label for="Oops">
+                <input type="checkbox" value="Oops" name="subject" id="104">Oops
+            </label>
+                
+            <br>
+            <!-- textarea: used for eg: taking feedback -->
+            <textarea name="feedback" id="105" cols="30" rows="10"></textarea>
+            <br>
+            <textarea name="Feedback" id="106" placeholder="Please give your feedback here" rows="5" cols="10">Feedback</textarea>
+            <br>
+
+            <!-- Select: 
+            <select name="city" id="city">
+                <option value="Delhi"> Delhi</option> -->
+                <!-- <option value="Mumbai"> Delhi</option>
+                <option value="Banglore"> Delhi</option> </select> -->
+
+            <br>
+            <hr4>Select city</hr4>
+            <select name="city" >
+                <option value="Select your city">Select your city</option>
+                <option value="Patna">Patna</option>
+                <option value="Malda Town">Malda Town</option>
+                <option value="Jamshedpur">Jamshedpur</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Banglore">Banglore</option>
+            </select>
+            <!-- TYPE Submit: -->
+            <input type="submit" value="submit">
+        </form>
+        <br>
+
+        <!-- iframe Tag:
+        website inside website:-  <iframe src="link"> -->
+
+
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mtykbnJEDyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <iframe src="https://chat.openai.com/" width="560" height="315" frameborder="8"></iframe>
+
+            <!-- Video Tag: <video src="myVid.mp4"> My Video </video>
+            
+            Attributes: 1) Controls 2) height 3) width 4) loop 5) autoplay -->
+            <video width="560" height="315" src="/(159) Falak Tu Garaj Tu Lyrical (Hindi) _ KGF Chapter 2 _ Rocking Star Yash _ Prashanth Neel _ Ravi Basrur - YouTube - Google Chrome 2022-04-16 11-19-20.mp4" controls>My video</video>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            
+</body>
+</html>
